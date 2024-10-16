@@ -5,6 +5,7 @@ import HomePage from './pages/HomePage';
 import ProductPage from './pages/ProductPage';
 import PricingPage from './pages/PricingPage';
 import ContactPage from './pages/ContactPage';
+import Footer from './layout/Footer';
 
 const App = () => {
   return (
@@ -16,6 +17,10 @@ const App = () => {
         <Route path="/pricing" component={PricingPage} />
         <Route path="/contact" component={ContactPage} />
       </Switch>
+
+      <Footer>
+        
+      </Footer>
     </div>
   );
 };

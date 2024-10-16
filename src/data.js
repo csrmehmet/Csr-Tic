@@ -47,9 +47,41 @@ export const mobileMenuData = [
   
   export const headerLinks = [
     { label: 'Login / Register', link: '/login', iconClass: 'fas fa-user' },
-    { label: 'Search', link: '/search', iconClass: 'fas fa-search' },
-    { label: 'Cart', link: '/cart', iconClass: 'fas fa-shopping-cart' },
-    { label: 'Wishlist', link: '/wishlist', iconClass: 'fas fa-heart' }
+    {  iconClass: 'fas fa-search' },
+    {  iconClass: 'fas fa-shopping-cart' },
+    {  iconClass: 'fas fa-heart' }
   ];
   
 export const followUsText = 'Follow Us :';
+export const footerData = [
+  {
+    title: "Get In Touch",
+    type: "text",
+    content: "the quick fox jumps over the lazy dog",
+    socialLinks: true
+  },
+  {
+    title: "Company info",
+    type: "links",
+    items: [
+      { label: "About Us", link: "/about" },
+      { label: "Carrier", link: "/carrier" },
+      { label: "We are hiring", link: "/careers" },
+      { label: "Blog", link: "/blog" }
+    ]
+  },
+  {
+    title: "Features",
+    type: "links",
+    items: [
+      { label: "Business Marketing", link: "/business-marketing" },
+      { label: "User Analytic", link: "/user-analytic" },
+      { label: "Live Chat", link: "/live-chat" },
+      { label: "Unlimited Support", link: "/support" }
+    ]
+  }
+];
+
+
+
+export const copyrightText = '© 2024 CSR. All rights reserved.';

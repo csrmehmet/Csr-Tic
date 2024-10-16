@@ -38,6 +38,13 @@ const Header = () => {
 
         {/* Icons for mobile view */}
         <div className="flex items-center space-x-4 md:hidden">
+          {/* Mobil görünüm için ikonları ekliyoruz */}
+          {headerLinks.map((link, index) => (
+            <a key={index} href={link.link} className="text-black hover:text-accent">
+              <i className={link.iconClass}></i>
+            </a>
+          ))}
+          {/* Menü açma/kapama butonu en sona ekleniyor */}
           <button onClick={() => setMenuOpen(!menuOpen)} className="hover:text-gray-800">
             <i className="fas fa-bars"></i>
           </button>
