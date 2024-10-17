@@ -105,3 +105,15 @@ export const heroData = [
     desktopImage: "src/assets/shop-hero-1-product-slide-1.jpg"
   }
 ];
+
+
+export const editorsPick = {
+  title: "EDITOR'S PICK",
+  subtitle: "Problems trying to resolve the conflict between",
+  categories: [
+    { title: 'MEN', image: '/assets/men.jpg', aspectRatio: 350/125, link: '/men' },
+    { title: 'WOMEN', image: '/assets/women.jpg', aspectRatio: 250/250, link: '/women' },
+    { title: 'ACCESSORIES', image: '/assets/accessories.jpg', aspectRatio: 250/250, link: '/accessories' },
+    { title: 'KIDS', image: '/assets/kids.jpg', aspectRatio: 250/250, link: '/kids' },
+  ]
+};

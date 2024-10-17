@@ -11,9 +11,9 @@ const Header = () => {
 
   return (
     <>
-      <header className="p-4">
+      <header className="p-4 bg-gray-100 md:bg-transparent">
         {/* Top bar for desktop view */}
-        <div className="hidden md:flex bg-primary text-white py-2 px-4 justify-between items-center">
+        <div className="hidden md:flex bg-gra bg-primary text-white py-2 px-4 justify-between items-center">
           <div className="flex items-center space-x-4">
             <span className="flex items-center space-x-2">
               <i className="fas fa-phone-alt"></i>
