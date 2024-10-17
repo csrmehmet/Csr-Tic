@@ -1,6 +1,12 @@
-const HomePage =()=>{
-    return <>
-    </>
-}
+import Hero from '../components/ui/Hero';
 
-export default HomePage
+const HomePage = () => {
+  return (
+    <div>
+      <Hero />
+      
+    </div>
+  );
+};
+
+export default HomePage;

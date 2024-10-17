@@ -85,3 +85,23 @@ export const footerData = [
 
 
 export const copyrightText = '© 2024 CSR. All rights reserved.';
+
+
+export const heroData = [
+  {
+    title: "SUMMER 2020",
+    subtitle: "NEW COLLECTION",
+    description: "We know how large objects will act, but things on a small scale.",
+    buttonText: "SHOP NOW",
+    mobileImage: "src/assets/product-slide-1.jpg",
+    desktopImage: "src/assets/shop-hero-1-product-slide-1.jpg"
+  },
+  {
+    title: "SUMMER 2020",
+    subtitle: "NEW COLLECTION",
+    description: "We know how large objects will act, but things on a small scale.",
+    buttonText: "SHOP NOW",
+    mobileImage: "src/assets/product-slide-1.jpg",
+    desktopImage: "src/assets/shop-hero-1-product-slide-1.jpg"
+  }
+];
