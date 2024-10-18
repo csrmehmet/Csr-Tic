@@ -1,4 +1,4 @@
-// data.js
+
 export const mobileMenuData = [
     { label: 'Home', link: '/' },
     { label: 'Product', link: '/product' },
@@ -111,9 +111,43 @@ export const editorsPick = {
   title: "EDITOR'S PICK",
   subtitle: "Problems trying to resolve the conflict between",
   categories: [
-    { title: 'MEN', image: '/assets/men.jpg', aspectRatio: 350/125, link: '/men' },
-    { title: 'WOMEN', image: '/assets/women.jpg', aspectRatio: 250/250, link: '/women' },
-    { title: 'ACCESSORIES', image: '/assets/accessories.jpg', aspectRatio: 250/250, link: '/accessories' },
-    { title: 'KIDS', image: '/assets/kids.jpg', aspectRatio: 250/250, link: '/kids' },
+    { title: 'MEN', image: 'src/assets/men.png', aspectRatio: 350/125, link: '/men' },
+    { title: 'WOMEN', image: 'src/assets/women.png', aspectRatio: 250/250, link: '/women' },
+    { title: 'ACCESSORIES', image: 'src/assets/accessories.png', aspectRatio: 250/250, link: '/accessories' },
+    { title: 'KIDS', image: 'src/assets/kids.png', aspectRatio: 250/250, link: '/kids' },
   ]
 };
+
+
+
+// data.js
+
+export const featuredProductsHeading = {
+  title: "Featured Products",
+  subtitle: "BESTSELLER PRODUCTS",
+  description: "Problems trying to resolve the conflict between"
+};
+
+export const products = [
+  {
+    id: 1,
+    image: "src/assets/product-cover-5.png",
+    title: "Graphic Design",
+    subtitle: "English Department",
+    price: 16.48,
+    discountedPrice: 6.48,
+    colors: ['#23A6F0', '#2DC071', '#E77C40', '#252B42']
+  },
+  {
+    id: 2,
+    image: "src/assets/product-cover-5.png",
+    title: "Graphic Design",
+    subtitle: "English Department",
+    price: 16.48,
+    discountedPrice: 6.48,
+    colors: ['#23A6F0', '#2DC071', '#E77C40', '#252B42']
+  },
+  // Diğer ürünler...
+];
+
+export const productCategories = ["design", "development", "marketing", "business"];
