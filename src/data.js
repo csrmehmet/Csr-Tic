@@ -178,3 +178,13 @@ export const shopPageData = {
     }
   ]
 };
+
+
+export const categoryIcons = [
+  { name: 'Hooli', icon: 'fa-brands fa-hooli' },
+  { name: 'Lyft', icon: 'fa-brands fa-lyft' },
+  { name: 'Pied Piper', icon: 'fa-brands fa-pied-piper-hat' },
+  { name: 'Stripe', icon: 'fa-brands fa-stripe' },
+  { name: 'AWS', icon: 'fa-brands fa-aws' },
+  { name: 'Reddit', icon: 'fa-brands fa-reddit-alien' },
+];
