@@ -151,3 +151,30 @@ export const products = [
 ];
 
 export const productCategories = ["design", "development", "marketing", "business"];
+export const shopPageData = {
+  title: "Shop",
+  breadcrumb: ["Home", "Shop"],
+  clothsCategories: [
+    {
+      id: 1,
+      title: "CLOTHS",
+      itemCount: 5,
+      image: "src/assets/clothscard.png",
+      backgroundColor: "#F1F1F1" // Gri arka plan
+    },
+    {
+      id: 2,
+      title: "CLOTHS",
+      itemCount: 5,
+      image: "src/assets/clothscard.png",
+      backgroundColor: "#23A6F0" // Mavi arka plan
+    },
+    {
+      id: 3,
+      title: "CLOTHS",
+      itemCount: 5,
+      image: "src/assets/clothscard.png",
+      backgroundColor: "#FF9999" // Pembe arka plan
+    }
+  ]
+};
