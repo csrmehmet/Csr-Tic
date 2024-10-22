@@ -1,9 +1,10 @@
 import { Link } from 'react-router-dom';
-import { shopPageData, products, categoryIcons } from '../data';
+import { shopPageData, products } from '../data';
 import ClothsCard from '../components/ClothsCard';
 import ProductCard from '../components/ProductCard';
 import { useState } from 'react';
 import { Button } from '@/components/ui/button';
+import IconSection from '@/components/IconSection';
 
 const ShopPage = () => {
     const [view, setView] = useState('grid');
@@ -100,11 +101,7 @@ const ShopPage = () => {
                 </div>
 
                 {/* Logo kısmı */}
-                <div className="flex flex-col md:flex-row justify-between items-center my-12 space-y-4 md:space-y-0">
-                    {categoryIcons.map((icon, index) => (
-                        <i key={index} className={`${icon.icon} text-4xl text-gray-500`}></i>
-                    ))}
-                </div>
+                <IconSection />
             </div>
         </>
     );

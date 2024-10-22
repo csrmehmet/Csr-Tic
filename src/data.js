@@ -120,7 +120,7 @@ export const editorsPick = {
 
 
 
-// data.js
+
 
 export const featuredProductsHeading = {
   title: "Featured Products",
@@ -131,24 +131,37 @@ export const featuredProductsHeading = {
 export const products = [
   {
     id: 1,
-    image: "src/assets/product-cover-5.png",
     title: "Graphic Design",
     subtitle: "English Department",
     price: 16.48,
     discountedPrice: 6.48,
-    colors: ['#23A6F0', '#2DC071', '#E77C40', '#252B42']
+    image: "/src/assets/product-cover-5.png", 
+    rating: 4,
+    reviews: 10,
+    availability: {
+      status: true,
+      text: "In Stock"
+    },
+    description: "Met minim Mollie non desert Alamo est sit cliquey dolor do met sent. RELIT official consequent door ENIM RELIT Mollie. Excitation venial consequent sent nostrum met.",
+    colors: ['#23A6F0', '#2DC071', '#E77C40', '#252B42'],
+    images: [
+      {
+        id: 1,
+        main: "/src/assets/product-cover-5.png",     
+        thumbnail: "/src/assets/product-cover-5.png"  
+      },
+      {
+        id: 2,
+        main: "/src/assets/product-cover-5.png",      
+        thumbnail: "/src/assets/product-cover-5.png"   
+      }
+    ]
   },
-  {
-    id: 2,
-    image: "src/assets/product-cover-5.png",
-    title: "Graphic Design",
-    subtitle: "English Department",
-    price: 16.48,
-    discountedPrice: 6.48,
-    colors: ['#23A6F0', '#2DC071', '#E77C40', '#252B42']
-  },
-  // Diğer ürünler...
+  
 ];
+
+
+
 
 export const productCategories = ["design", "development", "marketing", "business"];
 export const shopPageData = {
