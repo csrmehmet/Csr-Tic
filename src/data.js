@@ -131,34 +131,155 @@ export const featuredProductsHeading = {
 export const products = [
   {
     id: 1,
+    image: "/src/assets/product-cover-5.png",
     title: "Graphic Design",
     subtitle: "English Department",
     price: 16.48,
     discountedPrice: 6.48,
-    image: "/src/assets/product-cover-5.png", 
     rating: 4,
     reviews: 10,
     availability: {
       status: true,
       text: "In Stock"
     },
-    description: "Met minim Mollie non desert Alamo est sit cliquey dolor do met sent. RELIT official consequent door ENIM RELIT Mollie. Excitation venial consequent sent nostrum met.",
+    description: "Met minim Mollie non desert...",
     colors: ['#23A6F0', '#2DC071', '#E77C40', '#252B42'],
     images: [
       {
         id: 1,
-        main: "/src/assets/product-cover-5.png",     
-        thumbnail: "/src/assets/product-cover-5.png"  
-      },
-      {
-        id: 2,
-        main: "/src/assets/product-cover-5.png",      
-        thumbnail: "/src/assets/product-cover-5.png"   
+        main: "/src/assets/product-cover-5.png",
+        thumbnail: "/src/assets/product-cover-5.png"
       }
-    ]
+    ],
+    descriptionImage: "/src/assets/product-cover-5.png",
+    descriptionData: {
+      mainText: [
+        "Met minim Mollie non desert Alamo est sit cliquey dolor do met sent. RELIT official consequent door ENIM RELIT Mollie. Excitation venial consequent sent nostrum met.",
+        "Met minim Mollie non desert Alamo est sit cliquey dolor do met sent. RELIT official consequent door ENIM RELIT Mollie. Excitation venial consequent sent nostrum met.",
+        "Met minim Mollie non desert Alamo est sit cliquey dolor do met sent. RELIT official consequent door ENIM RELIT Mollie. Excitation venial consequent sent nostrum met."
+      ],
+      features: [
+        {
+          title: "the quick fox jumps over",
+          items: [
+            "the quick fox jumps over the lazy dog",
+            "the quick fox jumps over the lazy dog",
+            "the quick fox jumps over the lazy dog",
+            "the quick fox jumps over the lazy dog"
+          ]
+        },
+        {
+          title: "the quick fox jumps over",
+          items: [
+            "the quick fox jumps over the lazy dog",
+            "the quick fox jumps over the lazy dog",
+            "the quick fox jumps over the lazy dog"
+          ]
+        }
+      ]
+    }
   },
-  
-];
+  {
+    id: 2,
+    image: "/src/assets/product-cover-5.png",
+    title: "Graphic Design",
+    subtitle: "English Department",
+    price: 16.48,
+    discountedPrice: 6.48,
+    rating: 4,
+    reviews: 10,
+    availability: {
+      status: true,
+      text: "In Stock"
+    },
+    description: "Met minim Mollie non desert...",
+    colors: ['#23A6F0', '#2DC071', '#E77C40', '#252B42'],
+    images: [
+      {
+        id: 1,
+        main: "/src/assets/product-cover-5.png",
+        thumbnail: "/src/assets/product-cover-5.png"
+      }
+    ],
+    descriptionImage: "/src/assets/product-cover-5.png",
+    descriptionData: {
+      mainText: [
+        "Met minim Mollie non desert Alamo est sit cliquey dolor do met sent. RELIT official consequent door ENIM RELIT Mollie. Excitation venial consequent sent nostrum met.",
+        "Met minim Mollie non desert Alamo est sit cliquey dolor do met sent. RELIT official consequent door ENIM RELIT Mollie. Excitation venial consequent sent nostrum met.",
+        "Met minim Mollie non desert Alamo est sit cliquey dolor do met sent. RELIT official consequent door ENIM RELIT Mollie. Excitation venial consequent sent nostrum met."
+      ],
+      features: [
+        {
+          title: "the quick fox jumps over",
+          items: [
+            "the quick fox jumps over the lazy dog",
+            "the quick fox jumps over the lazy dog",
+            "the quick fox jumps over the lazy dog",
+            "the quick fox jumps over the lazy dog"
+          ]
+        },
+        {
+          title: "the quick fox jumps over",
+          items: [
+            "the quick fox jumps over the lazy dog",
+            "the quick fox jumps over the lazy dog",
+            "the quick fox jumps over the lazy dog"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    id: 3,
+    image: "/src/assets/product-cover-5.png",
+    title: "Graphic Design",
+    subtitle: "English Department",
+    price: 16.48,
+    discountedPrice: 6.48,
+    rating: 4,
+    reviews: 10,
+    availability: {
+      status: true,
+      text: "In Stock"
+    },
+    description: "Met minim Mollie non desert...",
+    colors: ['#23A6F0', '#2DC071', '#E77C40', '#252B42'],
+    images: [
+      {
+        id: 1,
+        main: "/src/assets/product-cover-5.png",
+        thumbnail: "/src/assets/product-cover-5.png"
+      }
+    ],
+    descriptionImage: "/src/assets/product-cover-5.png",
+    descriptionData: {
+      mainText: [
+        "Met minim Mollie non desert Alamo est sit cliquey dolor do met sent. RELIT official consequent door ENIM RELIT Mollie. Excitation venial consequent sent nostrum met.",
+        "Met minim Mollie non desert Alamo est sit cliquey dolor do met sent. RELIT official consequent door ENIM RELIT Mollie. Excitation venial consequent sent nostrum met.",
+        "Met minim Mollie non desert Alamo est sit cliquey dolor do met sent. RELIT official consequent door ENIM RELIT Mollie. Excitation venial consequent sent nostrum met."
+      ],
+      features: [
+        {
+          title: "the quick fox jumps over",
+          items: [
+            "the quick fox jumps over the lazy dog",
+            "the quick fox jumps over the lazy dog",
+            "the quick fox jumps over the lazy dog",
+            "the quick fox jumps over the lazy dog"
+          ]
+        },
+        {
+          title: "the quick fox jumps over",
+          items: [
+            "the quick fox jumps over the lazy dog",
+            "the quick fox jumps over the lazy dog",
+            "the quick fox jumps over the lazy dog"
+          ]
+        }
+      ]
+    }
+  }
+ ];
 
 
 
@@ -194,10 +315,48 @@ export const shopPageData = {
 
 
 export const categoryIcons = [
-  { name: 'Hooli', icon: 'fa-brands fa-hooli' },
-  { name: 'Lyft', icon: 'fa-brands fa-lyft' },
-  { name: 'Pied Piper', icon: 'fa-brands fa-pied-piper-hat' },
-  { name: 'Stripe', icon: 'fa-brands fa-stripe' },
-  { name: 'AWS', icon: 'fa-brands fa-aws' },
-  { name: 'Reddit', icon: 'fa-brands fa-reddit-alien' },
+  { icon: 'fa-brands fa-hooli' },
+  {  icon: 'fa-brands fa-lyft' },
+  {  icon: 'fa-brands fa-pied-piper-hat' },
+  {  icon: 'fa-brands fa-stripe' },
+  {  icon: 'fa-brands fa-aws' },
+  {  icon: 'fa-brands fa-reddit-alien' },
 ];
+
+export const contactData = {
+  title: "CONTACT US",
+  description: "Problems trying to resolve the conflict between the two major realms of Classical physics: Newtonian mechanics",
+  buttonText: "CONTACT US",
+  phoneTitle: "Phone",
+  faxTitle: "Fax",
+  officeLocations: [
+    {
+      city: "Paris",
+      address: "1901 Thorn ridge Cir.",
+      postalCode: "75000 Paris",
+      phone: "+451 215 215",
+      fax: "+451 215 215"
+    },
+    {
+      city: "New York",
+      address: "2715 Ash Dr. San Jose,",
+      postalCode: "75000 Paris",
+      phone: "+451 215 215",
+      fax: "+451 215 215"
+    },
+    {
+      city: "Berlin",
+      address: "4140 Parker Rd.",
+      postalCode: "75000 Paris",
+      phone: "+451 215 215",
+      fax: "+451 215 215"
+    },
+    {
+      city: "London",
+      address: "3517 W. Gray St. Utica,",
+      postalCode: "75000 Paris",
+      phone: "+451 215 215",
+      fax: "+451 215 215"
+    }
+  ]
+};
