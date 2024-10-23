@@ -360,3 +360,41 @@ export const contactData = {
     }
   ]
 };
+export const teamData = {
+  title: "Meet Our Team",
+  description: "Problems trying to resolve the conflict between the two major realms of Classical physics: Newtonian mechanics",
+  members: [
+    {
+      id: 1,
+      name: "Mehmet Coşar",
+      position: "Founder",
+      role: "Fullstack Developer",
+      description: "the quick fox jumps over the lazy dog",
+      image: "src/assets/myphoto.png"
+    },
+    {
+      id: 2,
+      name: "Mehmet Coşar",
+      position: "Founder",
+      role: "Fullstack Developer",
+      description: "the quick fox jumps over the lazy dog",
+      image: "src/assets/myphoto.png"
+    },
+    {
+      id: 3,
+      name: "Mehmet Coşar",
+      position: "Founder",
+      role: "Fullstack Developer",
+      description: "the quick fox jumps over the lazy dog",
+      image: "src/assets/myphoto.png"
+    },
+    {
+      id: 4,
+      name: "Mehmet Coşar",
+      position: "Founder",
+      role: "Fullstack Developer",
+      description: "the quick fox jumps over the lazy dog",
+      image: "src/assets/myphoto.png"
+    }
+  ]
+};
