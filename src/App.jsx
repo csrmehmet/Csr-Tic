@@ -10,6 +10,8 @@ import ContactPage from './pages/ContactPage';
 import ShopPage from './pages/ShopPage';
 import TeamPage from './pages/TeamPage';
 
+import SignupPage from './pages/SignupPage';
+
 const App = () => {
   return (
     <Router>
@@ -21,8 +23,10 @@ const App = () => {
           <Route path="/pricing" component={PricingPage} />
           <Route path="/contact" component={ContactPage} />
           <Route path="/shop" component={ShopPage} />
-          <Route path="/product-detail/:id" component={ProductPage} />
           <Route path="/team" component={TeamPage} />
+          <Route path="/signup" component={SignupPage}/>
+          <Route path="/product-detail/:id" component={ProductPage} />
+          
         </Switch>
         <Footer />
       </div>
