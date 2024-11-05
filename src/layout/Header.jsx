@@ -1,9 +1,52 @@
 import { Link } from 'react-router-dom';
-import { mobileMenuData, desktopMenuData, brandName, contactInfo, socialMediaLinks, specialOffer, headerLinks } from '@/data';
+import { useDispatch, useSelector } from 'react-redux';
 import { useState } from 'react';
+import { logout } from '../store/actions/clientActions';
+import { mobileMenuData, desktopMenuData, brandName, contactInfo, socialMediaLinks, specialOffer, headerLinks } from '@/data';
+import {
+  DropdownMenu,
+  DropdownMenuContent,
+  DropdownMenuItem,
+  DropdownMenuLabel,
+  DropdownMenuSeparator,
+  DropdownMenuTrigger,
+} from "@/components/ui/dropdown-menu";
+import { Avatar, AvatarImage, AvatarFallback } from "@/components/ui/avatar";
 
 const Header = () => {
   const [menuOpen, setMenuOpen] = useState(false);
+  const dispatch = useDispatch();
+  const user = useSelector(state => state.client.user);
+
+  const handleLogout = () => {
+    dispatch(logout());
+  };
+
+  // Kullanıcı dropdown menüsü
+  const UserMenu = () => (
+    <DropdownMenu>
+      <DropdownMenuTrigger className="flex items-center space-x-2">
+        <Avatar className="h-8 w-8">
+          <AvatarImage src={user.avatar} alt={user.name} />
+          <AvatarFallback>{user.name?.charAt(0)}</AvatarFallback>
+        </Avatar>
+        <span className="hidden md:inline">{user.name}</span>
+      </DropdownMenuTrigger>
+      <DropdownMenuContent>
+        <DropdownMenuLabel>Hesabım</DropdownMenuLabel>
+        <DropdownMenuSeparator />
+        <DropdownMenuItem>
+          <Link to="/profile">Profil</Link>
+        </DropdownMenuItem>
+        <DropdownMenuItem>
+          <Link to="/orders">Siparişlerim</Link>
+        </DropdownMenuItem>
+        <DropdownMenuItem onClick={handleLogout}>
+          Çıkış Yap
+        </DropdownMenuItem>
+      </DropdownMenuContent>
+    </DropdownMenu>
+  );
 
   return (
     <header className="p-4 bg-gray-100 md:bg-transparent">
@@ -30,7 +73,7 @@ const Header = () => {
         </div>
       </div>
 
-      {/* Main navigation for mobile-first */}
+      {/* Main navigation */}
       <div className="flex justify-between items-center p-4">
         {/* Brand Name */}
         <Link to="/" className="text-primary text-xl font-bold">
@@ -44,6 +87,13 @@ const Header = () => {
               <i className={link.iconClass}></i>
             </Link>
           ))}
+          {user ? (
+            <UserMenu />
+          ) : (
+            <Link to="/login" className="text-black hover:text-accent">
+              <i className="fas fa-user"></i>
+            </Link>
+          )}
           <button onClick={() => setMenuOpen(!menuOpen)} className="hover:text-gray-800">
             <i className="fas fa-bars"></i>
           </button>
@@ -88,13 +138,21 @@ const Header = () => {
           ))}
         </nav>
 
-        {/* Icons for desktop view */}
+        {/* Icons & User Menu for desktop view */}
         <div className="hidden md:flex items-center space-x-4 text-light">
-          {headerLinks.map((link, index) => (
+          {headerLinks.filter(link => link.iconClass !== 'fas fa-user').map((link, index) => (
             <Link key={index} to={link.link || '#'} className="hover:text-accent">
               <i className={link.iconClass}></i> {link.label}
             </Link>
           ))}
+          {user ? (
+            <UserMenu />
+          ) : (
+            <Link to="/login" className="hover:text-accent flex items-center space-x-2">
+              <i className="fas fa-user"></i>
+              <span>Giriş Yap</span>
+            </Link>
+          )}
         </div>
       </div>
 
@@ -113,7 +171,6 @@ const Header = () => {
                 </Link>
               </li>
             ))}
-            {/* Mobil menüye Shop seçeneği ekliyoruz */}
             <li>
               <Link 
                 to="/shop" 
