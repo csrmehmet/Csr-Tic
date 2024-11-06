@@ -11,7 +11,7 @@ import ContactPage from './pages/ContactPage';
 import { useEffect } from 'react';
 import { useDispatch } from 'react-redux';
 import { verifyToken } from './store/actions/clientActions';
-
+import CategoryPage from './pages/CategoryPage';
 import ShopPage from './pages/ShopPage';
 import TeamPage from './pages/TeamPage';
 
@@ -32,12 +32,14 @@ const App = () => {
           <Header />
           <Switch>
             <Route exact path="/" component={HomePage} />
+            <Route path="/shop/:gender/:category" component={CategoryPage} />
             <Route path="/product" component={ProductPage} />
             <Route path="/pricing" component={PricingPage} />
             <Route path="/contact" component={ContactPage} />
             <Route path="/shop" component={ShopPage} />
             <Route path="/team" component={TeamPage} />
             <Route path="/login" component={LoginPage} />
+            <Route path="/signup" component={SignupPage} />
             <Route path="/product-detail/:id" component={ProductPage} />
           </Switch>
           <Footer />

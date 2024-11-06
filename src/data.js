@@ -134,8 +134,10 @@ export const products = [
     image: "/src/assets/product-cover-5.png",
     title: "Graphic Design",
     subtitle: "English Department",
-    price: 16.48,
-    discountedPrice: 6.48,
+    gender: "erkek", // Eklendi
+    category: "ayakkabi", // Eklendi
+    price: 12.48,
+    discountedPrice: 4.48,
     rating: 4,
     reviews: 10,
     availability: {
@@ -156,7 +158,7 @@ export const products = [
       mainText: [
         "Met minim Mollie non desert Alamo est sit cliquey dolor do met sent. RELIT official consequent door ENIM RELIT Mollie. Excitation venial consequent sent nostrum met.",
         "Met minim Mollie non desert Alamo est sit cliquey dolor do met sent. RELIT official consequent door ENIM RELIT Mollie. Excitation venial consequent sent nostrum met.",
-        "Met minim Mollie non desert Alamo est sit cliquey dolor do met sent. RELIT official consequent door ENIM RELIT Mollie. Excitation venial consequent sent nostrum met."
+        
       ],
       features: [
         {
@@ -168,74 +170,19 @@ export const products = [
             "the quick fox jumps over the lazy dog"
           ]
         },
-        {
-          title: "the quick fox jumps over",
-          items: [
-            "the quick fox jumps over the lazy dog",
-            "the quick fox jumps over the lazy dog",
-            "the quick fox jumps over the lazy dog"
-          ]
-        }
-      ]
-    }
-  },
-   {
-    id: 1,
-    image: "/src/assets/product-cover-5.png",
-    title: "Graphic Design",
-    subtitle: "English Department",
-    price: 16.48,
-    discountedPrice: 6.48,
-    rating: 4,
-    reviews: 10,
-    availability: {
-      status: true,
-      text: "In Stock"
-    },
-    description: "Met minim Mollie non desert...",
-    colors: ['#23A6F0', '#2DC071', '#E77C40', '#252B42'],
-    images: [
-      {
-        id: 1,
-        main: "/src/assets/product-cover-5.png",
-        thumbnail: "/src/assets/product-cover-5.png"
-      }
-    ],
-    descriptionImage: "/src/assets/product-cover-5.png",
-    descriptionData: {
-      mainText: [
-        "Met minim Mollie non desert Alamo est sit cliquey dolor do met sent. RELIT official consequent door ENIM RELIT Mollie. Excitation venial consequent sent nostrum met.",
-        "Met minim Mollie non desert Alamo est sit cliquey dolor do met sent. RELIT official consequent door ENIM RELIT Mollie. Excitation venial consequent sent nostrum met.",
-        "Met minim Mollie non desert Alamo est sit cliquey dolor do met sent. RELIT official consequent door ENIM RELIT Mollie. Excitation venial consequent sent nostrum met."
-      ],
-      features: [
-        {
-          title: "the quick fox jumps over",
-          items: [
-            "the quick fox jumps over the lazy dog",
-            "the quick fox jumps over the lazy dog",
-            "the quick fox jumps over the lazy dog",
-            "the quick fox jumps over the lazy dog"
-          ]
-        },
-        {
-          title: "the quick fox jumps over",
-          items: [
-            "the quick fox jumps over the lazy dog",
-            "the quick fox jumps over the lazy dog",
-            "the quick fox jumps over the lazy dog"
-          ]
-        }
+        
       ]
     }
   },
   {
-    id: 1,
+    id: 6,
     image: "/src/assets/product-cover-5.png",
     title: "Graphic Design",
     subtitle: "English Department",
-    price: 16.48,
-    discountedPrice: 6.48,
+    gender: "kadin", // Eklendi
+    category: "gomlek", // Eklendi
+    price: 12.48,
+    discountedPrice: 3.68,
     rating: 4,
     reviews: 10,
     availability: {
@@ -256,7 +203,7 @@ export const products = [
       mainText: [
         "Met minim Mollie non desert Alamo est sit cliquey dolor do met sent. RELIT official consequent door ENIM RELIT Mollie. Excitation venial consequent sent nostrum met.",
         "Met minim Mollie non desert Alamo est sit cliquey dolor do met sent. RELIT official consequent door ENIM RELIT Mollie. Excitation venial consequent sent nostrum met.",
-        "Met minim Mollie non desert Alamo est sit cliquey dolor do met sent. RELIT official consequent door ENIM RELIT Mollie. Excitation venial consequent sent nostrum met."
+        
       ],
       features: [
         {
@@ -268,374 +215,17 @@ export const products = [
             "the quick fox jumps over the lazy dog"
           ]
         },
-        {
-          title: "the quick fox jumps over",
-          items: [
-            "the quick fox jumps over the lazy dog",
-            "the quick fox jumps over the lazy dog",
-            "the quick fox jumps over the lazy dog"
-          ]
-        }
+        
       ]
     }
   },
-  {
-    id: 1,
-    image: "/src/assets/product-cover-5.png",
-    title: "Graphic Design",
-    subtitle: "English Department",
-    price: 16.48,
-    discountedPrice: 6.48,
-    rating: 4,
-    reviews: 10,
-    availability: {
-      status: true,
-      text: "In Stock"
-    },
-    description: "Met minim Mollie non desert...",
-    colors: ['#23A6F0', '#2DC071', '#E77C40', '#252B42'],
-    images: [
-      {
-        id: 1,
-        main: "/src/assets/product-cover-5.png",
-        thumbnail: "/src/assets/product-cover-5.png"
-      }
-    ],
-    descriptionImage: "/src/assets/product-cover-5.png",
-    descriptionData: {
-      mainText: [
-        "Met minim Mollie non desert Alamo est sit cliquey dolor do met sent. RELIT official consequent door ENIM RELIT Mollie. Excitation venial consequent sent nostrum met.",
-        "Met minim Mollie non desert Alamo est sit cliquey dolor do met sent. RELIT official consequent door ENIM RELIT Mollie. Excitation venial consequent sent nostrum met.",
-        "Met minim Mollie non desert Alamo est sit cliquey dolor do met sent. RELIT official consequent door ENIM RELIT Mollie. Excitation venial consequent sent nostrum met."
-      ],
-      features: [
-        {
-          title: "the quick fox jumps over",
-          items: [
-            "the quick fox jumps over the lazy dog",
-            "the quick fox jumps over the lazy dog",
-            "the quick fox jumps over the lazy dog",
-            "the quick fox jumps over the lazy dog"
-          ]
-        },
-        {
-          title: "the quick fox jumps over",
-          items: [
-            "the quick fox jumps over the lazy dog",
-            "the quick fox jumps over the lazy dog",
-            "the quick fox jumps over the lazy dog"
-          ]
-        }
-      ]
-    }
-  },
-  {
-    id: 1,
-    image: "/src/assets/product-cover-5.png",
-    title: "Graphic Design",
-    subtitle: "English Department",
-    price: 16.48,
-    discountedPrice: 6.48,
-    rating: 4,
-    reviews: 10,
-    availability: {
-      status: true,
-      text: "In Stock"
-    },
-    description: "Met minim Mollie non desert...",
-    colors: ['#23A6F0', '#2DC071', '#E77C40', '#252B42'],
-    images: [
-      {
-        id: 1,
-        main: "/src/assets/product-cover-5.png",
-        thumbnail: "/src/assets/product-cover-5.png"
-      }
-    ],
-    descriptionImage: "/src/assets/product-cover-5.png",
-    descriptionData: {
-      mainText: [
-        "Met minim Mollie non desert Alamo est sit cliquey dolor do met sent. RELIT official consequent door ENIM RELIT Mollie. Excitation venial consequent sent nostrum met.",
-        "Met minim Mollie non desert Alamo est sit cliquey dolor do met sent. RELIT official consequent door ENIM RELIT Mollie. Excitation venial consequent sent nostrum met.",
-        "Met minim Mollie non desert Alamo est sit cliquey dolor do met sent. RELIT official consequent door ENIM RELIT Mollie. Excitation venial consequent sent nostrum met."
-      ],
-      features: [
-        {
-          title: "the quick fox jumps over",
-          items: [
-            "the quick fox jumps over the lazy dog",
-            "the quick fox jumps over the lazy dog",
-            "the quick fox jumps over the lazy dog",
-            "the quick fox jumps over the lazy dog"
-          ]
-        },
-        {
-          title: "the quick fox jumps over",
-          items: [
-            "the quick fox jumps over the lazy dog",
-            "the quick fox jumps over the lazy dog",
-            "the quick fox jumps over the lazy dog"
-          ]
-        }
-      ]
-    }
-  },
-  {
-    id: 1,
-    image: "/src/assets/product-cover-5.png",
-    title: "Graphic Design",
-    subtitle: "English Department",
-    price: 16.48,
-    discountedPrice: 6.48,
-    rating: 4,
-    reviews: 10,
-    availability: {
-      status: true,
-      text: "In Stock"
-    },
-    description: "Met minim Mollie non desert...",
-    colors: ['#23A6F0', '#2DC071', '#E77C40', '#252B42'],
-    images: [
-      {
-        id: 1,
-        main: "/src/assets/product-cover-5.png",
-        thumbnail: "/src/assets/product-cover-5.png"
-      }
-    ],
-    descriptionImage: "/src/assets/product-cover-5.png",
-    descriptionData: {
-      mainText: [
-        "Met minim Mollie non desert Alamo est sit cliquey dolor do met sent. RELIT official consequent door ENIM RELIT Mollie. Excitation venial consequent sent nostrum met.",
-        "Met minim Mollie non desert Alamo est sit cliquey dolor do met sent. RELIT official consequent door ENIM RELIT Mollie. Excitation venial consequent sent nostrum met.",
-        "Met minim Mollie non desert Alamo est sit cliquey dolor do met sent. RELIT official consequent door ENIM RELIT Mollie. Excitation venial consequent sent nostrum met."
-      ],
-      features: [
-        {
-          title: "the quick fox jumps over",
-          items: [
-            "the quick fox jumps over the lazy dog",
-            "the quick fox jumps over the lazy dog",
-            "the quick fox jumps over the lazy dog",
-            "the quick fox jumps over the lazy dog"
-          ]
-        },
-        {
-          title: "the quick fox jumps over",
-          items: [
-            "the quick fox jumps over the lazy dog",
-            "the quick fox jumps over the lazy dog",
-            "the quick fox jumps over the lazy dog"
-          ]
-        }
-      ]
-    }
-  },
-  {
-    id: 1,
-    image: "/src/assets/product-cover-5.png",
-    title: "Graphic Design",
-    subtitle: "English Department",
-    price: 16.48,
-    discountedPrice: 6.48,
-    rating: 4,
-    reviews: 10,
-    availability: {
-      status: true,
-      text: "In Stock"
-    },
-    description: "Met minim Mollie non desert...",
-    colors: ['#23A6F0', '#2DC071', '#E77C40', '#252B42'],
-    images: [
-      {
-        id: 1,
-        main: "/src/assets/product-cover-5.png",
-        thumbnail: "/src/assets/product-cover-5.png"
-      }
-    ],
-    descriptionImage: "/src/assets/product-cover-5.png",
-    descriptionData: {
-      mainText: [
-        "Met minim Mollie non desert Alamo est sit cliquey dolor do met sent. RELIT official consequent door ENIM RELIT Mollie. Excitation venial consequent sent nostrum met.",
-        "Met minim Mollie non desert Alamo est sit cliquey dolor do met sent. RELIT official consequent door ENIM RELIT Mollie. Excitation venial consequent sent nostrum met.",
-        "Met minim Mollie non desert Alamo est sit cliquey dolor do met sent. RELIT official consequent door ENIM RELIT Mollie. Excitation venial consequent sent nostrum met."
-      ],
-      features: [
-        {
-          title: "the quick fox jumps over",
-          items: [
-            "the quick fox jumps over the lazy dog",
-            "the quick fox jumps over the lazy dog",
-            "the quick fox jumps over the lazy dog",
-            "the quick fox jumps over the lazy dog"
-          ]
-        },
-        {
-          title: "the quick fox jumps over",
-          items: [
-            "the quick fox jumps over the lazy dog",
-            "the quick fox jumps over the lazy dog",
-            "the quick fox jumps over the lazy dog"
-          ]
-        }
-      ]
-    }
-  },
-  
-  {
-    id: 1,
-    image: "/src/assets/product-cover-5.png",
-    title: "Graphic Design",
-    subtitle: "English Department",
-    price: 16.48,
-    discountedPrice: 6.48,
-    rating: 4,
-    reviews: 10,
-    availability: {
-      status: true,
-      text: "In Stock"
-    },
-    description: "Met minim Mollie non desert...",
-    colors: ['#23A6F0', '#2DC071', '#E77C40', '#252B42'],
-    images: [
-      {
-        id: 1,
-        main: "/src/assets/product-cover-5.png",
-        thumbnail: "/src/assets/product-cover-5.png"
-      }
-    ],
-    descriptionImage: "/src/assets/product-cover-5.png",
-    descriptionData: {
-      mainText: [
-        "Met minim Mollie non desert Alamo est sit cliquey dolor do met sent. RELIT official consequent door ENIM RELIT Mollie. Excitation venial consequent sent nostrum met.",
-        "Met minim Mollie non desert Alamo est sit cliquey dolor do met sent. RELIT official consequent door ENIM RELIT Mollie. Excitation venial consequent sent nostrum met.",
-        "Met minim Mollie non desert Alamo est sit cliquey dolor do met sent. RELIT official consequent door ENIM RELIT Mollie. Excitation venial consequent sent nostrum met."
-      ],
-      features: [
-        {
-          title: "the quick fox jumps over",
-          items: [
-            "the quick fox jumps over the lazy dog",
-            "the quick fox jumps over the lazy dog",
-            "the quick fox jumps over the lazy dog",
-            "the quick fox jumps over the lazy dog"
-          ]
-        },
-        {
-          title: "the quick fox jumps over",
-          items: [
-            "the quick fox jumps over the lazy dog",
-            "the quick fox jumps over the lazy dog",
-            "the quick fox jumps over the lazy dog"
-          ]
-        }
-      ]
-    }
-  },
-  {
-    id: 1,
-    image: "/src/assets/product-cover-5.png",
-    title: "Graphic Design",
-    subtitle: "English Department",
-    price: 16.48,
-    discountedPrice: 6.48,
-    rating: 4,
-    reviews: 10,
-    availability: {
-      status: true,
-      text: "In Stock"
-    },
-    description: "Met minim Mollie non desert...",
-    colors: ['#23A6F0', '#2DC071', '#E77C40', '#252B42'],
-    images: [
-      {
-        id: 1,
-        main: "/src/assets/product-cover-5.png",
-        thumbnail: "/src/assets/product-cover-5.png"
-      }
-    ],
-    descriptionImage: "/src/assets/product-cover-5.png",
-    descriptionData: {
-      mainText: [
-        "Met minim Mollie non desert Alamo est sit cliquey dolor do met sent. RELIT official consequent door ENIM RELIT Mollie. Excitation venial consequent sent nostrum met.",
-        "Met minim Mollie non desert Alamo est sit cliquey dolor do met sent. RELIT official consequent door ENIM RELIT Mollie. Excitation venial consequent sent nostrum met.",
-        "Met minim Mollie non desert Alamo est sit cliquey dolor do met sent. RELIT official consequent door ENIM RELIT Mollie. Excitation venial consequent sent nostrum met."
-      ],
-      features: [
-        {
-          title: "the quick fox jumps over",
-          items: [
-            "the quick fox jumps over the lazy dog",
-            "the quick fox jumps over the lazy dog",
-            "the quick fox jumps over the lazy dog",
-            "the quick fox jumps over the lazy dog"
-          ]
-        },
-        {
-          title: "the quick fox jumps over",
-          items: [
-            "the quick fox jumps over the lazy dog",
-            "the quick fox jumps over the lazy dog",
-            "the quick fox jumps over the lazy dog"
-          ]
-        }
-      ]
-    }
-  },
-  {
-    id: 1,
-    image: "/src/assets/product-cover-5.png",
-    title: "Graphic Design",
-    subtitle: "English Department",
-    price: 16.48,
-    discountedPrice: 6.48,
-    rating: 4,
-    reviews: 10,
-    availability: {
-      status: true,
-      text: "In Stock"
-    },
-    description: "Met minim Mollie non desert...",
-    colors: ['#23A6F0', '#2DC071', '#E77C40', '#252B42'],
-    images: [
-      {
-        id: 1,
-        main: "/src/assets/product-cover-5.png",
-        thumbnail: "/src/assets/product-cover-5.png"
-      }
-    ],
-    descriptionImage: "/src/assets/product-cover-5.png",
-    descriptionData: {
-      mainText: [
-        "Met minim Mollie non desert Alamo est sit cliquey dolor do met sent. RELIT official consequent door ENIM RELIT Mollie. Excitation venial consequent sent nostrum met.",
-        "Met minim Mollie non desert Alamo est sit cliquey dolor do met sent. RELIT official consequent door ENIM RELIT Mollie. Excitation venial consequent sent nostrum met.",
-        "Met minim Mollie non desert Alamo est sit cliquey dolor do met sent. RELIT official consequent door ENIM RELIT Mollie. Excitation venial consequent sent nostrum met."
-      ],
-      features: [
-        {
-          title: "the quick fox jumps over",
-          items: [
-            "the quick fox jumps over the lazy dog",
-            "the quick fox jumps over the lazy dog",
-            "the quick fox jumps over the lazy dog",
-            "the quick fox jumps over the lazy dog"
-          ]
-        },
-        {
-          title: "the quick fox jumps over",
-          items: [
-            "the quick fox jumps over the lazy dog",
-            "the quick fox jumps over the lazy dog",
-            "the quick fox jumps over the lazy dog"
-          ]
-        }
-      ]
-    }
-  },
-  
   {
     id: 2,
     image: "/src/assets/product-cover-5.png",
     title: "Graphic Design",
     subtitle: "English Department",
+    gender: "kadin", // Eklendi
+    category: "ayakkabi", // Eklendi
     price: 16.48,
     discountedPrice: 6.48,
     rating: 4,
@@ -658,7 +248,7 @@ export const products = [
       mainText: [
         "Met minim Mollie non desert Alamo est sit cliquey dolor do met sent. RELIT official consequent door ENIM RELIT Mollie. Excitation venial consequent sent nostrum met.",
         "Met minim Mollie non desert Alamo est sit cliquey dolor do met sent. RELIT official consequent door ENIM RELIT Mollie. Excitation venial consequent sent nostrum met.",
-        "Met minim Mollie non desert Alamo est sit cliquey dolor do met sent. RELIT official consequent door ENIM RELIT Mollie. Excitation venial consequent sent nostrum met."
+        
       ],
       features: [
         {
@@ -670,14 +260,7 @@ export const products = [
             "the quick fox jumps over the lazy dog"
           ]
         },
-        {
-          title: "the quick fox jumps over",
-          items: [
-            "the quick fox jumps over the lazy dog",
-            "the quick fox jumps over the lazy dog",
-            "the quick fox jumps over the lazy dog"
-          ]
-        }
+        
       ]
     }
   },
@@ -686,6 +269,8 @@ export const products = [
     image: "/src/assets/product-cover-5.png",
     title: "Graphic Design",
     subtitle: "English Department",
+    gender: "kadin", // Eklendi
+    category: "ayakkabi", // Eklendi
     price: 16.48,
     discountedPrice: 6.48,
     rating: 4,
@@ -708,7 +293,7 @@ export const products = [
       mainText: [
         "Met minim Mollie non desert Alamo est sit cliquey dolor do met sent. RELIT official consequent door ENIM RELIT Mollie. Excitation venial consequent sent nostrum met.",
         "Met minim Mollie non desert Alamo est sit cliquey dolor do met sent. RELIT official consequent door ENIM RELIT Mollie. Excitation venial consequent sent nostrum met.",
-        "Met minim Mollie non desert Alamo est sit cliquey dolor do met sent. RELIT official consequent door ENIM RELIT Mollie. Excitation venial consequent sent nostrum met."
+        
       ],
       features: [
         {
@@ -720,19 +305,101 @@ export const products = [
             "the quick fox jumps over the lazy dog"
           ]
         },
+        
+      ]
+    }
+  },
+  {
+    id: 4,
+    image: "/src/assets/product-cover-5.png",
+    title: "Graphic Design",
+    subtitle: "English Department",
+    gender: "kadin", // Eklendi
+    category: "ayakkabi", // Eklendi
+    price: 16.48,
+    discountedPrice: 6.48,
+    rating: 4,
+    reviews: 10,
+    availability: {
+      status: true,
+      text: "In Stock"
+    },
+    description: "Met minim Mollie non desert...",
+    colors: ['#23A6F0', '#2DC071', '#E77C40', '#252B42'],
+    images: [
+      {
+        id: 1,
+        main: "/src/assets/product-cover-5.png",
+        thumbnail: "/src/assets/product-cover-5.png"
+      }
+    ],
+    descriptionImage: "/src/assets/product-cover-5.png",
+    descriptionData: {
+      mainText: [
+        "Met minim Mollie non desert Alamo est sit cliquey dolor do met sent. RELIT official consequent door ENIM RELIT Mollie. Excitation venial consequent sent nostrum met.",
+        "Met minim Mollie non desert Alamo est sit cliquey dolor do met sent. RELIT official consequent door ENIM RELIT Mollie. Excitation venial consequent sent nostrum met.",
+        
+      ],
+      features: [
         {
           title: "the quick fox jumps over",
           items: [
             "the quick fox jumps over the lazy dog",
             "the quick fox jumps over the lazy dog",
+            "the quick fox jumps over the lazy dog",
             "the quick fox jumps over the lazy dog"
           ]
-        }
+        },
+        
       ]
     }
-  }
- ];
-
+  },
+  {
+    id: 5,
+    image: "/src/assets/product-cover-5.png",
+    title: "Graphic Design",
+    subtitle: "English Department",
+    gender: "kadin", // Eklendi
+    category: "ayakkabi", // Eklendi
+    price: 16.48,
+    discountedPrice: 6.48,
+    rating: 4,
+    reviews: 10,
+    availability: {
+      status: true,
+      text: "In Stock"
+    },
+    description: "Met minim Mollie non desert...",
+    colors: ['#23A6F0', '#2DC071', '#E77C40', '#252B42'],
+    images: [
+      {
+        id: 1,
+        main: "/src/assets/product-cover-5.png",
+        thumbnail: "/src/assets/product-cover-5.png"
+      }
+    ],
+    descriptionImage: "/src/assets/product-cover-5.png",
+    descriptionData: {
+      mainText: [
+        "Met minim Mollie non desert Alamo est sit cliquey dolor do met sent. RELIT official consequent door ENIM RELIT Mollie. Excitation venial consequent sent nostrum met.",
+        "Met minim Mollie non desert Alamo est sit cliquey dolor do met sent. RELIT official consequent door ENIM RELIT Mollie. Excitation venial consequent sent nostrum met.",
+        
+      ],
+      features: [
+        {
+          title: "the quick fox jumps over",
+          items: [
+            "the quick fox jumps over the lazy dog",
+            "the quick fox jumps over the lazy dog",
+            "the quick fox jumps over the lazy dog",
+            "the quick fox jumps over the lazy dog"
+          ]
+        },
+        
+      ]
+    }
+  },
+];
 
 
 
@@ -746,21 +413,21 @@ export const shopPageData = {
       title: "CLOTHS",
       itemCount: 5,
       image: "src/assets/clothscard.png",
-      backgroundColor: "#F1F1F1" // Gri arka plan
+      
     },
     {
       id: 2,
       title: "CLOTHS",
       itemCount: 5,
       image: "src/assets/clothscard.png",
-      backgroundColor: "#23A6F0" // Mavi arka plan
+      
     },
     {
       id: 3,
       title: "CLOTHS",
       itemCount: 5,
       image: "src/assets/clothscard.png",
-      backgroundColor: "#FF9999" // Pembe arka plan
+      
     }
   ]
 };
@@ -850,3 +517,24 @@ export const teamData = {
     }
   ]
 };
+export const categories = [
+  {
+    id: 1,
+    name: "Ayakkabı",
+    gender: "kadin",
+    image: "src/assets/clothscard.png"
+  },
+  {
+    id: 2,
+    name: "Gömlek",
+    gender: "erkek",
+    image: "src/assets/clothscard.png"
+  },
+  {
+    id: 3,
+    name: "Çanta",
+    gender: "kadin",
+    image: "src/assets/clothscard.png"
+  },
+  // Diğer kategoriler...
+];

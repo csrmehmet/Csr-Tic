@@ -1,14 +1,36 @@
-/* eslint-disable react/prop-types */
+import { useHistory } from 'react-router-dom';
+import { useSelector } from 'react-redux';
 
+const ClothsCard = () => {
+  const history = useHistory();
+  const { categories } = useSelector(state => state.product);
 
-const ClothsCard = ({ category }) => {
+  const handleCategoryClick = (gender, category) => {
+    history.push(`/shop/${gender}/${category.toLowerCase()}`);
+  };
+
   return (
-    <div className="relative w-full mb-4" style={{ backgroundColor: category.backgroundColor }}>
-      <img src={category.image} alt={category.title} className="w-full h-auto" />
-      <div className="absolute bottom-0 left-0 p-4 text-white">
-        <h3 className="text-2xl font-bold">{category.title}</h3>
-        <p>{category.itemCount} items</p>
-      </div>
+    <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
+      {categories.map((category) => (
+        <div 
+          key={category.id}
+          onClick={() => handleCategoryClick(category.gender, category.name)}
+          className="relative group overflow-hidden rounded-lg h-[300px] cursor-pointer"
+        >
+          <img 
+            src={category.image} 
+            alt={category.name}
+            className="w-full h-full object-cover transition-transform duration-300 group-hover:scale-110"
+          />
+          
+          <div className="absolute inset-0 bg-black bg-opacity-40 transition-opacity duration-300" />
+          
+          <div className="absolute bottom-6 left-6 text-white">
+            <h3 className="text-2xl font-bold mb-2">{category.name}</h3>
+            <p className="text-sm capitalize">{category.gender} Koleksiyonu</p>
+          </div>
+        </div>
+      ))}
     </div>
   );
 };

@@ -1,8 +1,21 @@
 /* eslint-disable react/prop-types */ 
 import { Link } from 'react-router-dom';
 
-const ProductCard = ({ product }) => {
-  const { id, image, title, subtitle, price, discountedPrice, colors } = product;
+const ProductCard = ({ product = {} }) => {
+  // Varsayılan değerler ve null check ekleyelim
+  const { 
+    id = '', 
+    image = '', 
+    title = '', 
+    subtitle = '', 
+    price = 0, 
+    discountedPrice = 0, 
+    colors = [] 
+  } = product || {};
+
+  // Güvenli price formatlaması
+  const formattedPrice = typeof price === 'number' ? price.toFixed(2) : '0.00';
+  const formattedDiscountedPrice = typeof discountedPrice === 'number' ? discountedPrice.toFixed(2) : '0.00';
 
   return (
     <Link to={`/product-detail/${id}`}>
@@ -14,8 +27,8 @@ const ProductCard = ({ product }) => {
           <h3 className="text-base font-bold text-gray-800">{title}</h3>
           <p className="text-sm text-gray-500 mt-1">{subtitle}</p>
           <div className="flex justify-center items-center mt-2">
-            <span className="text-gray-500 line-through mr-2">${price.toFixed(2)}</span>
-            <span className="text-green-600 font-bold">${discountedPrice.toFixed(2)}</span>
+            <span className="text-gray-500 line-through mr-2">${formattedPrice}</span>
+            <span className="text-green-600 font-bold">${formattedDiscountedPrice}</span>
           </div>
           <div className="flex justify-center mt-3 space-x-2">
             {colors.map((color, index) => (
